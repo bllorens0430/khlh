@@ -1,0 +1,39 @@
+<% provide(:title, 'Billing Information') %>
+<h1> Billing Information </h1>
+
+<p> Please fill out the billing information for the account you want the reimbursement channeled to: </p>
+
+<body>
+  <%= form_for Billing.new do |f| %>
+  <%= render 'shared/error_messages', object: f.object %>
+  <this><b> Credit Card Type: </b></this> <%= f.text_field :payer_name, class: 'form-control' %>
+
+
+  <this><b> Cardholder Name: </b></this> <%= f.text_field :holder_name, class: 'form-control' %>
+
+
+  <this><b> Credit Card Number: </b></this><%= f.text_field :card_number, class: 'form-control' %>
+
+
+  <this><b> Expiration Month: </b></this><%= f.text_field :expire_month, class: 'form-control' %>
+
+
+  <this><b> Expiration Year </b></this><%= f.text_field :expire_year, class: 'form-control' %>
+
+
+  <this><b> Address: </b></this><%= f.text_field :address, class: 'form-control' %>
+
+
+  <this><b> City: </b></this><%= f.text_field :city, class: 'form-control' %>
+
+
+  <this><b> State: </b></this><%= f.text_field :state, class: 'form-control' %>
+
+
+  <this><b> Zipcode: </b></this><%= f.text_field :zipcode, class: 'form-control' %>
+
+  <this><b> Country: </b></this><%= f.text_field :country, class: 'form-control' %>
+
+  <%= f.submit "Submit", class: "btn" %>
+<% end %>
+</body>
