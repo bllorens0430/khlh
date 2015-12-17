@@ -1,0 +1,316 @@
+// Place all the styles related to the Users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+BODY ,#eMSSBGColor,#ss_ebilllogin_middle #ss_login_container,#ss_ebilllogin_middle #ss_login_container #ss_linkbox,	#ss_middle #ss_ShoppingCart #Grid table,.ss_select_categorydatagriditems,table#tblSelectShipping .ss_select_form,.ss_selectPay_form,.ss_form_middle,#ss_ebilllogin_middle #ss_Storelogin_container #ss_Storeloginbox,.ss_confirm_shippingAddress,	#ss_EBillloginDIV #ss_PageHeader, #ss_IPPAutopayconfirmDIV
+{
+background-color:white;
+font-family:Arial;
+font-size:13px;
+color:black;
+}
+.ContentTableBGColor
+{
+background-color:white;
+font-family:Arial;
+font-size:13px;
+}
+.cshritemref, #ss_RecentPayDIV .cshritemref label,
+table#tblDonationDetails span
+{
+color:black;
+font-family:Arial;
+font-size:13px;
+}
+.ContentTable
+{
+color:black;
+font-family:Arial;
+font-size:13px;
+}
+.HeaderItem, #ss_autopayconfirmDIV .ss_form_fields_confirm .HeaderItem
+{
+color:black;
+background-color:#FCCE43;
+font-family:Arial;
+font-size:13px;
+}
+.Item A:link,.ss_viewbasketcategorydatagrid .categorydatagrid.Item, .ss_partialpaycategorydatagrid .categorydatagrid.Item
+{
+color:black;
+background-color: white;
+font-family:Arial;
+font-size:13px;
+}
+.Item A:visited
+{
+color:black;
+background-color: white;
+font-family:Arial;
+font-size:13px;
+}
+.Item ,.Item1 ,.Item2 ,.Item P, .ss_viewbasketcategorydatagrid .categorydatagrid .Item,#ss_categoryCollectionItem .Item,#ss_ebilllogin_middle #ss_login_container #ss_loginbox,#Tablecontainer .Item,#ss_EditItemscontainer .ss_Editcategorydatagrid .Item,#ss_EnterpmtInfo .Item,#ss_homecategorydatagridrightside .ss_categorylistdatagrid .Item, .ss_catalogcontentcontainerright #ss_homecategorydatagridrightside .Item,.ss_payment_row .ss_selectPay_form,.ss_confirm_shippingAddress,.Item Label,#ss_IPPConfirmDIV .ss_form_middle .ss_form_fields .Item,table#tblSelectShipping .ss_select_form,#ss_ebilllogin_middle #ss_login_container #ss_loginbox a,table#tblSelectShippingWidth .ss_select_datagridrow,#ss_IPPAutopayconfirmDIV table#tblIppAutoPayConfirmPmtInfo,#ss_AutopmtMethodDIV .ss_form_fields .Item,#ss_AutopmtInfoDIV .Item,#ss_IPPAutopayDIV .Item,.ss_select_categorydatagriditems,.ss_select_colcontrol,.ss_Items_table,table#dgItems .Item .ss_hiddentablecategorydatagriditems .TextColor, .ss_partialpaycategorydatagrid .categorydatagrid .Item,
+#ss_IPPTermsDIV .ss_ipp_terms_apr_details .Item, #ss_IPPTermsDIV .ss_IPPTermsTable #dgCharges .Item, #ss_IPPTermsDIV table.ss_IPPTermsTable table#dgCredits .Item,
+#ss_IPPTermsDIV .ss_IPPTermsTable #dgWYPLCredits .Item, #divPaymentInfo .ss_ift_confirm_header, table#dgCreditBalances .Item .ss_ProductTitle1
+{
+color:black;
+background-color: white;
+font-family:Arial;
+font-size:13px;
+}
+/*.AlternateItem,.Item,.categorydatagriditems,.ss_categorydatagriditemsright,.myBox, {BORDER : 1px solid blue;}
+#boxtitle {BORDER-BOTTOM : 1px solid blue;}*/
+.AlternateItem A:link
+{
+color:black;
+background-color: white;
+font-family:Arial;
+font-size:13px;
+}
+.AlternateItem A:visited
+{
+color:black;
+background-color: white;
+font-family:Arial;
+font-size:13px;;
+}
+.AlternateItem , .ss_viewbasketcategorydatagrid .AlternateItem,#ss_categoryCollectionItem .AlternateItem,#Tablecontainer .AlternateItem,#ss_EditItemscontainer .ss_Editcategorydatagrid .AlternateItem,#ss_homecategorydatagridrightside .ss_categorylistdatagrid .AlternateItem, .ss_catalogcontentcontainerright #ss_homecategorydatagridrightside .AlternateItem,table#dgItems .AlternateItem .ss_hiddentablecategorydatagriditems .TextColor, .ss_partialpaycategorydatagrid .AlternateItem,#ss_IPPTermsDIV .ss_ipp_terms_apr_details .AlternateItem,
+#ss_IPPTermsDIV .ss_IPPTermsTable #dgCharges .AlternateItem, #ss_IPPTermsDIV table.ss_IPPTermsTable table#dgCredits .AlternateItem,
+#ss_IPPTermsDIV .ss_IPPTermsTable #dgWYPLCredits .AlternateItem, table#dgCreditBalances .AlternateItem .ss_ProductTitle1
+{
+color:black;
+background-color: white;
+font-family:Arial;
+font-size:13px;
+/*BORDER : #FCCE43 1px solid;*/
+}
+.Label,.Label P, .Label H3,#ss_middle h3,#ss_middle h3 P, table#tblIppSummary .ss_PaymentHistory_DataGridAlign .ss_Inst_Footer
+{
+color:black;
+font-family:Arial;
+font-size:13px;
+}
+.LabelBold
+{
+color:black;
+font-family:Arial;
+font-size:13px;
+font-weight:bold;
+}
+.Bold
+{
+font-weight:bold;
+}
+.InputControl
+{
+font-family:Arial;
+font-size:13px;
+}
+.Text,#boxcontent,.Text P, #ss_middle h2 p,#ss_middle h2,#ss_middle h2 P
+{
+color:black;
+font-family:Arial;
+font-size:13px;
+}
+.Line /*,#ss_categoryCollectionItemleft .ss_FeaturedproductDG*/
+{
+color:#FCCE43;
+border-color:#FCCE43;
+}
+#ss_categoryCollectionItemleft .ss_FeaturedproductDG .Item A,#ss_categoryCollectionItemright .ss_newproductsDG .Item A,#ss_homecategorydatagridrightside .Item A, #ss_homecategorydatagrid .Item A {color:black;}
+#ss_categoryCollectionItemleft .ss_FeaturedproductDG .AlternateItem A,#ss_categoryCollectionItemright .ss_newproductsDG .AlternateItem A,#ss_homecategorydatagridrightside .AlternateItem A,#ss_homecategorydatagrid .AlternateItem A {color:black;}
+.Link,#ss_login_container #ss_linkbox a,a#hlTerms
+{
+color:blue;
+font-family:Arial;
+}
+.Link {font-size:13px;}
+a,Label,.ss_youraccount_padding
+{
+font-family:Arial;
+}
+A,#boxcontent A:visited {
+color:blue;
+}
+.Error
+{
+color:red;
+font-family:Arial;
+font-size:13px;
+}
+.Button,.CurvedButton, .CurvedButton1, #ss_eRefundSummaryDIV .Button
+{
+color:black;
+background-color:#FCCE43;
+font-family:Arial;
+font-size:13px;
+}
+/* .Button
+{
+color:black;
+background-color:#FCCE43;
+font-family:Arial;
+font-size:13px;
+}*/
+html>body .Button,html>body .CurvedButton,html>body .CurvedButton1
+{
+color:black;
+background-color:#FCCE43;
+font-family:Arial;
+font-size:12px;
+}
+.Header,.Header P,.Header_1098T,.Header_1098T P,#ss_middle h3 P,#ss_middle h3, .ss_normalP, #divPaymentInfo #Table3 .Header
+{
+color:black;
+font-family:Arial;
+font-size:13px;
+font-weight: bold;
+}
+#lblSignupHeader
+{
+color:black;
+font-family:Arial;
+}
+/*Bugzilla Id 26718*/
+.txt_backcolor
+{
+background-color:white;
+border:none;
+outline:none;
+}
+.CNHeader
+{
+color:black;
+text-decoration:	none;
+font-family: Arial;
+font-size : 13px;
+font-weight: bold;
+}
+TD.Item,#ss_eRefundTermsDIV .ss_form_fields,
+{
+color:black;
+background-color: white;
+font-family:Arial;
+font-size:13px;
+}
+.Menu , #ss_footercontainer #EMss_footer,#Tablecontainer td.head,#Tablecontainer td.headlast,.ss_PaymentHistory_DataGridAlign .BG,.ss_PaymentHistory_DataGridAlign .BG1,.ss_categorydatagridheader,#ss_homecategorydatagridrightside h2,.ss_categoryListdatagridheader,.CategoryHeaderitem,#EMss_body #ss_menu2,A#OnlineHeader1_lblSearch,#ss_eRefundSummaryDIV .Menu,.ss_eRufunddatagrid .Menu,#form table#dgAccounts .ss_eRefundHeaderAlign,
+#divPaymentInfo .ss_confirm_header, #ss_IPPUsersummaryDIV .ss_PaymentHistory_DataGridAlign .ss_Installment_details, #ss_IPPTermsChangeDIV .ss_PaymentHistory_DataGridAlign .ss_Installment_details, #ss_autopayconfirmDIV #dgInstallments .Menu, #ss_IPPAutopayconfirmDIV #dgInstallments .Menu
+{
+color:black;
+font-family:Arial;
+font-size:13px;
+background-color:#FCCE43;
+text-decoration:none;
+font-weight: bold;
+}
+#boxtitle,#boxtitle .Header,#boxtitle .Header P,#Tablecontainer .Headertext
+{
+color:black;
+background-color:#FCCE43;
+font-family:Arial;
+}
+#boxtitle{ border-bottom:1px solid #FCCE43; }
+.forBorder,.forBorderItemColor,.forLoginBoxBorder {border-color: #FCCE43 !important;}/* Defined border color */
+.forBorderLeft {border-left-color:#FCCE43; }
+.forBorderRight {border-right-color:#FCCE43;}
+.forBorderTop {border-top-color:#FCCE43;}
+.forBorderBottom,.ss_eRufunddatagrid .Menu TD {border-bottom-color: 1px solid #FCCE43;}
+.Button,#ss_eRefundSummaryDIV .Button {border-color: #FCCE43;}
+html>body .Button {border-color: #FCCE43;}
+#ss_Itemscontainer {border-color: #FCCE43;} /*for Online basket dotted border*/
+#ss_menu2 li a,#ss_footercontainer #EMss_footer a
+{
+color:black;
+font-family:Arial;
+font-size:12px;
+background-color:#FCCE43;
+text-decoration:none;
+border-color: #FCCE43;
+}
+#EMss_body #ss_menu2
+{
+color:black;
+font-family:Arial;
+font-size:12px;
+background-color:#FCCE43;
+text-decoration:none;
+border:none;
+}
+html>body #EMss_body #ss_menu2
+{
+color:black;
+font-family:Arial;
+font-size:12px;
+background-color:#FCCE43;
+text-decoration:none;
+}
+.LeftMenuLink
+{
+TEXT-DECORATION: none;
+color:black;
+font-size:13px;
+}
+#mainlink A:hover
+{
+TEXT-DECORATION: none;
+color:orange;
+}
+.section
+{
+BORDER-RIGHT: 1px solid;
+BORDER-TOP: 0px;
+BORDER-LEFT: 1px solid;
+BORDER-BOTTOM: 0px
+}
+.sectionFoot
+{
+FONT-SIZE: 2px;
+LINE-HEIGHT: 1px;
+BORDER-BOTTOM: 1px solid;
+}
+.sectionHeadMid
+{
+BORDER-TOP: 1px solid;
+FONT-WEIGHT: bold;
+FONT-SIZE: 18px;
+LINE-HEIGHT: 25px;
+BORDER-BOTTOM: 1px solid;
+}
+.ya_spacer
+{
+HEIGHT: 15px
+}
+.ss_homefeaturecategorydatagrid .Item .ss_homecategorydatagriditems	 H3 a { background:transparent;}
+.ss_homefeaturecategorydatagrid .AlternateItem .ss_homecategorydatagriditems	 H3 a { background:transparent;}
+.categorydatagrid .Item .ss_homecategorydatagriditems	 H3 a { background:transparent;}
+.categorydatagrid .AlternateItem .ss_homecategorydatagriditems	 H3 a,
+.ss_Resetpassword_form { background:transparent;}
+/**#ss_AsstPmts { background-color: ;	}
+html>body #ss_AsstPmts { background-color: ;	}
+:root #ss_AsstPmts { background-color: ;	}*/
+table#tblIFTPmtInfo { padding-left:5px; padding-top:5px;}
+table#tblIFTConfirm .ss_confirm_paymentInfo { white-space:nowrap; }
+#ss_ReceiptDIV .ss_ift_instruction { padding-top:5px; padding-bottom:14px;}
+#ss_ParentformDIV .Item LABEL {color:black; font-family:Arial;}
+:root #ss_middle{ border-color: #FCCE43;}
+:root table#tblOnePmtCharges table#dgCharges .forBorderItemColor{ border: 1px solid #FCCE43;}
+.ss_viewbasketcategorydatagrid .categorydatagrid,
+.ss_ipp_terms_apr_details .categorydatagrid, #ss_ipppastdueDIV #dgPastDue .categorydatagriditems,
+div#ss_Confirm_div #tblACHAuth { border-color: #FCCE43;}
+#OnlineHeader1_divDonationLogin { border: 1px solid #FCCE43; }
+#ss_IPPTermsDIV table#tblAPRDetails { border:1px solid #FCCE43; background: white; }
+#ss_IPPTermsDIV table#tblAPRDetails .ss_apr_head1 { border-right: 1px solid #FCCE43; }
+#ss_IPPTermsDIV table#tblAPRDetails .ss_apr_head1 .Label { font-size:18px; }
+#ss_IPPTermsDIV table#tblAPRDetails .ss_apr_head3 { border-right: 1px solid #FCCE43;}
+#ss_IPPTermsDIV table#tblAPRDetails .ss_apr_head3 .Label { font-size:18px; }
+#ss_IPPTermsDIV table#tblAPRDetails .ss_apr_head4 { border-right: 1px solid #FCCE43;}
+#ss_IPPTermsDIV table#tblAPRDetails .ss_apr_head2 { border-right:none; }
+#ss_IPPTermsDIV table#tblAPRDetails .ss_apr_item { border-right: 1px solid #FCCE43;}
+#ss_IPPTermsDIV table#tblAPRDetails .ss_apr_value { border-right: 1px solid #FCCE43;}
+#ss_IPPTermsDIV .ss_ipp_terms_apr_details .ss_categorydatagridheader { border: 1px solid #FCCE43; }
+/* Bugz 36955 -- Quantity Range Lookup Pop up window*/
+#tblQuantityPricing .header { color:black;} /*defined header color for the header text.*/
+#divViewBasket .Link { color:blue; } /*Defined color for the link in view basket*/
+#divPaymentInfo #Table1 { border-top-color: #FCCE43;}
+/*Bugz 41177 -- AutopayDetails page for donations*/
+#ss_RegisterDIV #trDonationLogin #tdDonateForgetPwd #hlForgotPassword{ color: blue;} /*Applying link color to the forget password link*/
+#ss_RegisterDIV #tblRegister label{ color:black;} /*Applying text color for radio button.*/

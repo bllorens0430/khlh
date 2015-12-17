@@ -1,11 +1,228 @@
-<% provide(:title, 'Sign In') %>
-<h1>Sign In</h1>
-<%= form_for(@user) do |f| %>
-      <%= f.label :login %>
-      <%= f.text_field :login %>
+<style>
+  
+  table{
+    margin-right: 5%;
+  }
+  
+</style>
 
-      <%= f.label :password %>
-      <%= f.password_field :password %>
+<!DOCTYPE html>
+<html>
+  <head>
+    <% provide(:title, 'Sign In') %>
+    <%= stylesheet_link_tag  'users', media: 'all', 'data-turbolinks-track' => true %>
+     <%= csrf_meta_tags %>
+      <!--<h1>Sign In</h1>-->
+    
+    <script language="javascript">
+function setFocus() {
+	//nonstandard way of accessing DOM elements, gives access to all sub elements on your document... if it is nevessary we should use document.getElementById()
+document.all("txtLoginUser").focus();
+}
+</script>
+    <script type="text/javascript" src="../utilities/jquery.js"></script>
+  </head>
 
-      <%= f.submit "Sign In", class: "btn" %>
+  <body onload="setFocus();" ms_positioning="FlowLayout">
+     <%= form_for(@user) do |f| %> 
+    
+    
+    
+    <script src="/cashnetg/WebResource.axd?d=Gfc5gFzTvQGrOI0R0sZ0fN4jtoXlU94e2bFL1TZiKhv6F6-SgM-Jio7C7sbZvRh6vXz--GFkv1HTZgAbYoBcqueMMc01&amp;t=635792883765829480" type="text/javascript"></script>
+    <script type="text/javascript">
+//<![CDATA[
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', 'UA-65257640-1', 'auto');ga('send', 'pageview');//]]>
+</script>
+    
+<script src="/cashnetg/ScriptResource.axd?d=wYeIHqYHC-L8mSeAN1t16Jf7JAuF91G243fAxQE-oLLIx1UfMJm1wC187L2nfke--wsMemtRNur3YkI67NDjdRqhzAU3L_0JlY_su2Bj4zidLHnAajfprq51rtEwyHIsj8OfO8QL1uL4v3Vcvf9idQ-bAMWAgBcTf1dcR4VnpnO1yCX60&amp;t=72e85ccd" type="text/javascript"></script>
+    
+    <script src="/cashnetg/ScriptResource.axd?d=h33EIFjQ0VTGkFq8aVLiUBnWjZnLhVMg9BLBdK0vtw3JUz94TNL-QiGXTfdjZJNFXzUIdMvgMFYLXzBJPnBVCMID7VJ0jk6HUMqK8-UuCDihqTfafzcYM5BmhEvKyxqgTDAK-vMY1iqF8mutoPYdxIcBOZR6lLBct-mOMHr84hD4rl1A0&amp;t=72e85ccd" type="text/javascript"></script>
+    
+<div>
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="95D80E2A" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAATbf3+5fQIPqFrM09n/iJn1jBZTC/Oe9LtyHr1zdRGwGYWDpeI41dtZo7urN/YwNwCinihG6d/Xh3PZm3b5AoMQ0IHzW1bCWYOZiPfRU2zCX+rRuq0=" />
+</div>
+  <div id="EMss_body">
+  <div id="ss_EBillloginDIV">
+    
+<link id="OnlineHeader1_StyleSheet" media="all" type="text/css" rel="stylesheet" href="../Themes/common/blue theme/layout_1.css">
+<meta id="OnlineHeader1_RefreshPeriod" http-equiv="Refresh" content="-1;URL=Postsync.aspx">
+    
+<div id="eMSSBGColor" lang="en" style="width: inherit">
+   <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('OnlineHeader1$ScriptManager1', 'Form1', ['tOnlineHeader1$upLoginControls','','tOnlineHeader1$upCustName',''], [], [], 90, '');
+//]]>
+</script>
+   
+<div id="OnlineHeader1_upLoginControls">
+  </div>
+<div id="Emss_menucontainer" style="width: inherit">
+<div id="ss_image">
+<div id="OnlineHeader1_ss_StoreLogo">
+  <a id="OnlineHeader1_hlImgHome" title="SAO" href="<%= billing_path %>"><%= image_tag "depauwLogo.jpg", :width=>"250px", :height=>"53px", :style=>"border-width:0px;", :alt => "SAO", :id=>"OnlineHeader1_hlImgHome" %></a>
+</div>
+</div>
+<div id="ss_SmartPayLogo">
+</div>
+<div id="ss_MerchantName" class="forBorderLeft forBorderRight">
+<div id="OnlineHeader1_ss_Merchant">
+<span id="OnlineHeader1_lblMerchantName" class="Header" style="font-size:Medium;font-weight:bold;"></span>
+<div id="ss_menumobile">
+</div>
+</div>
+</div>
+<div id="OnlineHeader1_ss_PagecustDIV">
+<div id="ss_PageHeader" class="forBorderLeft forBorderRight forBorderTop">
+<div id="OnlineHeader1_upCustName">
+<h4 style="text-align: right">
+</h4>
+</div>
+<div class="ss_PageHeaderText">
+</div>
+</div>
+</div>
+<div id="OnlineHeader1_ss_HRDIV" width="70%">
+<hr class="Line" width="100%" noshade />
+</div>
+</div>
+</div>
+  </div>
+<div id="ss_ebilllogin_middle" class="forBorderLeft forBorderRight forBorderBottom" width="70%">
+<div id="ss_welcome_img">
+  <%= image_tag "welcomeImg.jpg", :style =>"border-width: 0px", :alt => "Image", :id => "IMGeBillLogin" %>
+  </div> 
+
+  
+<!--login form-->   
+<div id="ss_login_container" align="right" style="right: 5em">
+<div id="ss_loginbox" class="forLoginBoxBorder">
+<div class="Item">  
+  <table id="Table1" cellspacing="0" cellpadding="0" border="0">
+    <tr>
+      <td class="label_login" >
+        <%= f.label :login, id: 'lblLoginUser' %>
+      </td>
+      <td width="50%" class="Input">
+        <%= f.text_field :login, :id =>"txtLoginUser", :maxLength => "50", :size => "20", class: 'ss_login_textbox' %>
+      </td>
+    </tr>
+    <tr id="trPwd">
+      <td class="label_login">
+        <%= f.label :password, id: "lblLoginPwd" %>
+      </td>
+      
+      <td class="Input">
+        <%= f.password_field :password, :id =>"txtLoginPwd", :size => "20", class: 'ss_login_textbox' %>
+      </td>
+     </tr>
+    
+     <tr>
+      <td class="label_content" colspan="2">
+        &nbsp;
+      </td>
+     </tr>
+    
+      <tr>
+        <td class="button_content" colspan="2">
+          <%= f.submit "Sign In", id: "btnLogin", class: "Button" %>    
+        </td>
+      </tr>
+    
+      <tr>
+        <td class="label_content_help" colspan="2">
+          <span></span>
+          <p>
+            <a id="lnkLoginHelp" tabindex="-1" class="label_content" href="<%= billing_path %>" target="_blank">Billing Information</a>
+          </p>
+        </td>
+      </tr>
+  </table>  
+  </div>
+  </div>
+<div id="ss_linkbox">
+<u>
+</u>
+<p>
+<u>
+<a id="hlParentLogin" tabindex="-1" href="<%= billing_path %>">Parents and authorized users, click here to login with your user name and password.</a></u>
+</p>
+<p>
+<u>
+<a id="hlNoPinLogin" tabindex="-1" href="<%= billing_path %>">Click here to login if you know the login but do not have the password.&nbsp; <span style="color: #c00000;">
+  <br/>By selecting this option, your student's balance due will not be displayed.&nbsp; 
+  <br/>You may prefer to contact your student to have your login information reset</span>.</a></u>
+</p>
+<p>
+<u>
+</u>
+</p>
+  </div>
+  </div>
+<div id="ss_ebillloginMessage">
+  <p>
+    <span id="lblLoginMessage" class="Text"></span>
+  </p>
+</div>
+  </div>
+   
+<style> .tmtext { FONT-SIZE: 10px; LINE-HEIGHT: 100%; FONT-STYLE: normal } </style>
+  <BODY onunload="closeViewWindow();">
+<!--footer-->
+<div id="ss_footercontainer">
+  <table id="OnlineFooter1_tblHR" cellspacing="1" cellpadding="1" width="100%" border="0">
+    <tr>
+      <TD align="center" width="33%">
+        <hr noshade width="100%" class="Line">
+      </TD>
+    </tr>
+  </table>
+<div id="EMss_footer" class="Menu">
+  <div id="OnlineFooter1_ss_pagetrailer"><h3></h3></div>
+</div>    
+  <script language="javascript">
+var _IsDefaultCSS = document.getElementById('OnlineHeader1_StyleSheet').href
+if (_IsDefaultCSS.indexOf('default_theme.css')>0 || _IsDefaultCSS.indexOf('classic.css')>0 )
+{
+ShowHideFooter()
+}
+function ShowHideFooter()
+{
+var _ObjLinks = document.getElementById('OnlineFooter1_EMss_smartpaylinks')
+if (_ObjLinks==null)
+{
+document.getElementById('EMss_footer').style.display = 'none'
+}
+}
+</script>
+  
+<div class="EMss_pagetrailerMessage"></div>
+<div id="ss_footer_bg">
+  
+  <table id="OnlineFooter1_tblFooterTrailer" cellspacing="0" cellpadding="0" width="100%" border="0">
+    <tr>
+      <td class="ss_footer_align">
+        <span id="OnlineFooter1_lblServerNo" class="tmtext">(hvn1webce4)</span>
+      </td>
+      <td class="ss_footer_align" align="right">
+      </td>
+    </tr>
+  </table>
+</div>
+</div>
+    <script language="javascript">
+var view_window;
+function closeViewWindow()
+{
+if(view_window!=null && view_window!=self)
+{
+view_window.close();
+}
+}
+</script>
+  </BODY>
+  </div> 
     <% end %>
+  </body>
+</html>
+    

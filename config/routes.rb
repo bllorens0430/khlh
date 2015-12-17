@@ -2,9 +2,10 @@ Rails.application.routes.draw do
 
   root  'users#new'
   get 'thanks' => 'static_pages#thanks'
-  get 'billing' => 'static_pages#account'
+  get 'billing' => 'static_pages#billing'
+  get 'sign in' => 'users#new'
 
-
+  
   resources :users
 
   resources :billings
